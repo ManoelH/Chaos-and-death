@@ -1,0 +1,138 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Beard
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Beard_Opacity.png
+map_Kd personagemPrincipal_Beard_Diffuse.png
+adobe_map_normal personagemPrincipal_Beard_Normal.png
+map_Ks personagemPrincipal_Beard_Specular.png
+adobe_map_shininess personagemPrincipal_Beard_Gloss.png
+
+newmtl Hat
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Hat_Opacity.png
+map_Kd personagemPrincipal_Hat_Diffuse.png
+adobe_map_normal personagemPrincipal_Hat_Normal.png
+map_Ks personagemPrincipal_Hat_Specular.png
+adobe_map_shininess personagemPrincipal_Hat_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Hair_Opacity.png
+map_Kd personagemPrincipal_Hair_Diffuse.png
+adobe_map_normal personagemPrincipal_Hair_Normal.png
+map_Ks personagemPrincipal_Hair_Specular.png
+adobe_map_shininess personagemPrincipal_Hair_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Bottom_Opacity.png
+map_Kd personagemPrincipal_Bottom_Diffuse.png
+adobe_map_normal personagemPrincipal_Bottom_Normal.png
+map_Ks personagemPrincipal_Bottom_Specular.png
+adobe_map_shininess personagemPrincipal_Bottom_Gloss.png
+
+newmtl Moustache
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Moustache_Opacity.png
+map_Kd personagemPrincipal_Moustache_Diffuse.png
+adobe_map_normal personagemPrincipal_Moustache_Normal.png
+map_Ks personagemPrincipal_Moustache_Specular.png
+adobe_map_shininess personagemPrincipal_Moustache_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Shoes_Opacity.png
+map_Kd personagemPrincipal_Shoes_Diffuse.png
+adobe_map_normal personagemPrincipal_Shoes_Normal.png
+map_Ks personagemPrincipal_Shoes_Specular.png
+adobe_map_shininess personagemPrincipal_Shoes_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Top_Opacity.png
+map_Kd personagemPrincipal_Top_Diffuse.png
+adobe_map_normal personagemPrincipal_Top_Normal.png
+map_Ks personagemPrincipal_Top_Specular.png
+adobe_map_shininess personagemPrincipal_Top_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d personagemPrincipal_Body_Opacity.png
+map_Kd personagemPrincipal_Body_Diffuse.png
+adobe_map_normal personagemPrincipal_Body_Normal.png
+map_Ks personagemPrincipal_Body_Specular.png
+adobe_map_shininess personagemPrincipal_Body_Gloss.png
+
