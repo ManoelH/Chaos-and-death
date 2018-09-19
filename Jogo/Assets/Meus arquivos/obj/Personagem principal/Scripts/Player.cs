@@ -15,11 +15,11 @@ public class Player : MonoBehaviour {
 		
 	}
 
-    private void OnCollisionEnter(Collision collision) {
-        if (collision.collider.tag == "Inimigo")
+    /*private void OnCollisionEnter(Collision other) {
+        if (other.collider.tag == "Inimigo")
         {
-            Debug.Log("Colidiu");
+            Debug.Log ("Colidiu");
         }
 
-    }
+    }*/
 }

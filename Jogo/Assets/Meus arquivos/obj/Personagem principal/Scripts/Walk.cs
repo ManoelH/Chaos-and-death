@@ -13,7 +13,6 @@ public class Walk : MonoBehaviour {
 	
 	
 	void Update () {
-        Debug.Log(andar);
         andar = Input.GetAxis("Vertical");  //ANDAR
 
         if (Input.GetKey(KeyCode.LeftShift)) //CORRER
