@@ -13,7 +13,8 @@ public class Zombie : MonoBehaviour {
 	void Start () {
         player = GameObject.FindWithTag("Player");
         navMesh = GetComponent<NavMeshAgent>();
-	}
+        animator = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
