@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     // Use this for initialization
-    private int life = 100;
+    public int life = 100;
     void Awake () {
         transform.tag = "Player";
     }

@@ -21,9 +21,12 @@ public class Zombie : MonoBehaviour {
         navMesh.destination = player.transform.position;
         distancia = Vector3.Distance(transform.position, player.transform.position);
         animator.SetFloat("distancia", distancia);
-        if (Vector3.Distance(transform.position, player.transform.position) < 1.5f)
-        {
+        if (Vector3.Distance(transform.position, player.transform.position) < 1.5f){
             Debug.Log("Está perto");
         }
 	}
+
+    void atacar(){
+        player.GetComponent<Player>().life -= 10;
+    }
 }
