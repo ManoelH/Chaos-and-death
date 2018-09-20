@@ -27,6 +27,6 @@ public class Zombie : MonoBehaviour {
 	}
 
     void atacar(){
-        player.GetComponent<Player>().life -= 10;
+        player.GetComponent<Player>().life -= 2;
     }
 }
