@@ -21,7 +21,7 @@ public class Walk : MonoBehaviour {
         {
             andar = -1;
         }
-        animator.SetFloat("Walking", andar);
+        animator.SetFloat("walking", andar);
         this.transform.Rotate(0, (Input.GetAxis("Horizontal")*rotacionar)*Time.deltaTime, 0);  //ROTACIONAR
 	}
 }
