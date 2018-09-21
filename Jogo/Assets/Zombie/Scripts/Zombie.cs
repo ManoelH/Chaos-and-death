@@ -9,6 +9,7 @@ public class Zombie : MonoBehaviour {
     private GameObject player;
     private NavMeshAgent navMesh;
     private float distancia;
+    private bool playerMorto;
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindWithTag("Player");
@@ -26,7 +27,12 @@ public class Zombie : MonoBehaviour {
         }
 	}
 
-    void atacar(){
+    void atacar() {
         player.GetComponent<Player>().life -= 2;
+        if (player.GetComponent<Player>().life < 1){
+            playerMorto = true;
+            animator.SetBool("playerMorto", playerMorto);
+        }
+            
     }
 }
