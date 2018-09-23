@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     // Use this for initialization
-    public int life = 100;
+    public int life = 200;
     private Animator animator;
 
     void Awake () {
@@ -17,6 +17,7 @@ public class Player : MonoBehaviour {
 	void Update () {
         animator.SetInteger("life", life);
         Debug.Log(life);
+            
     }
 
     /*private void OnCollisionEnter(Collision other) {

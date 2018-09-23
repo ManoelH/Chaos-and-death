@@ -12,29 +12,25 @@ public class Zombie2 : MonoBehaviour {
     private float distancia;
     private bool playerMorto;
     // Use this for initialization
-    void Start()
-    {
+    void Start(){
         player = GameObject.FindWithTag("Player");
         navMesh = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         navMesh.destination = player.transform.position;
         distancia = Vector3.Distance(transform.position, player.transform.position);
         animator.SetFloat("distancia", distancia);
         if (Vector3.Distance(transform.position, player.transform.position) < 1.5f)
-        {
             atacar();
-        }
+        
     }
 
     void atacar(){
         player.GetComponent<Player>().life -= 3;
-        if (player.GetComponent<Player>().life < 1)
-        {
+        if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
         }
