@@ -331,6 +331,7 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\Zombie 2\Scritps\Zombie2.cs" />
     <Compile Include="Assets\Zombie 3\Script\Zombie3.cs" />
+    <Compile Include="Assets\Zombie Woman\Script\ZombieWoman.cs" />
     <Compile Include="Assets\Zombie\Scripts\Zombie.cs" />
   </ItemGroup>
   <ItemGroup>
