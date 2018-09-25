@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
-public class ZombieWoman : MonoBehaviour
-{
+public class ZombieWoman : MonoBehaviour{
 
     private Animator animator;
     private GameObject player;
@@ -12,16 +11,14 @@ public class ZombieWoman : MonoBehaviour
     private float distancia;
     private bool playerMorto;
     // Use this for initialization
-    void Start()
-    {
+    void Start(){
         player = GameObject.FindWithTag("Player");
         navMesh = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         navMesh.destination = player.transform.position;
         distancia = Vector3.Distance(transform.position, player.transform.position);
         animator.SetFloat("distancia", distancia);
@@ -30,11 +27,9 @@ public class ZombieWoman : MonoBehaviour
 
     }
 
-    void atacar()
-    {
+    void atacar(){
         player.GetComponent<Player>().life -= 2;
-        if (player.GetComponent<Player>().life < 1)
-        {
+        if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
         }
