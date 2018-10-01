@@ -32,6 +32,7 @@ public class ZombieWoman : MonoBehaviour{
         if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
+            //Destroy(player);
         }
 
     }

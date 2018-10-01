@@ -10,6 +10,7 @@ public class Zombie : MonoBehaviour {
     private NavMeshAgent navMesh;
     private float distancia;
     private bool playerMorto;
+    //private bool podeAtacar;
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindWithTag("Player");
@@ -19,6 +20,7 @@ public class Zombie : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //podeAtacar = true;
         navMesh.destination = player.transform.position;
         distancia = Vector3.Distance(transform.position, player.transform.position);
         animator.SetFloat("distancia", distancia);
@@ -32,7 +34,14 @@ public class Zombie : MonoBehaviour {
         if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
-        }
+            //Destroy(player);
             
+        }     
     }
+
+    /*IEnumerator tempoAtaque(){
+        podeAtacar = false;
+        yield return WaitForSeconds(1);
+        podeAtacar = true;
+    }*/
 }

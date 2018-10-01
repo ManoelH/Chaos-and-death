@@ -51,6 +51,7 @@ public class Zombie3 : MonoBehaviour {
         if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
+            //Destroy(player);
         }
 
     }

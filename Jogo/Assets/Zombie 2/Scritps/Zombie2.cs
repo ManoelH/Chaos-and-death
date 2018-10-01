@@ -33,6 +33,7 @@ public class Zombie2 : MonoBehaviour {
         if (player.GetComponent<Player>().life < 1){
             playerMorto = true;
             animator.SetBool("playerMorto", playerMorto);
+            //Destroy(player);
         }
 
     }
