@@ -33,7 +33,8 @@ public class Player : MonoBehaviour {
         this.transform.Rotate(0, (Input.GetAxis("Horizontal") * rotacionar) * Time.deltaTime, 0);  //ROTACIONAR
 
         animator.SetInteger("life", life);
-        Debug.Log(life);            
+
+        Debug.Log(life);                 
     }
 
     /*private void OnCollisionEnter(Collision other) {
