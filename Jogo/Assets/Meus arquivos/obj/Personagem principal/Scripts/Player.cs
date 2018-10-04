@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class Player : MonoBehaviour {
 
     //MOVIMENTAÇÃO
     private float andar = 0;
     private float rotacionar = 100;
-
     public int life = 200;
     private Animator animator;
+    NavMeshAgent navMesh;
 
     void Awake () {
         animator = GetComponent<Animator>();
+        navMesh = GetComponent<NavMeshAgent>();
         transform.tag = "Player";
     }
 	
