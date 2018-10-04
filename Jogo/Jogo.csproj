@@ -289,6 +289,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Meus arquivos\obj\Personagem principal\Scripts\Bood.cs" />
     <Compile Include="Assets\Meus arquivos\obj\Personagem principal\Scripts\Player.cs" />
     <Compile Include="Assets\Meus arquivos\obj\Personagem principal\Scripts\Walk.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />

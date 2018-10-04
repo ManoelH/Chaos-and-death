@@ -4389,12 +4389,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 383440245}
-  m_LocalRotation: {x: -0.000000037252896, y: 0.000000029802315, z: -0.000000020489091,
+  m_LocalRotation: {x: -0.000000037252892, y: 0.000000029802319, z: -0.00000002048909,
     w: -1}
-  m_LocalPosition: {x: -0.5, y: 1.58, z: 0.45}
-  m_LocalScale: {x: 0.7448161, y: 0.7401574, z: 0.6545794}
+  m_LocalPosition: {x: -0.5, y: 1.58, z: 0.161}
+  m_LocalScale: {x: 0.7448166, y: 0.7401574, z: 0.6545798}
   m_Children: []
-  m_Father: {fileID: 916576685}
+  m_Father: {fileID: 804416677}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
 --- !u!81 &383440247
@@ -8888,6 +8888,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 0880d9ac631f24f409114af2781b3480, type: 2}
   m_PrefabInternal: {fileID: 802484084}
+--- !u!4 &804416677 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400010, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
+  m_PrefabInternal: {fileID: 1000335170}
 --- !u!1 &817098139
 GameObject:
   m_ObjectHideFlags: 0
@@ -9747,10 +9751,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 451222, guid: 4e2dd32c733005a44b50004d673dc653, type: 2}
   m_PrefabInternal: {fileID: 914346910}
---- !u!4 &916576685 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400008, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
-  m_PrefabInternal: {fileID: 1000335170}
 --- !u!1 &920176957
 GameObject:
   m_ObjectHideFlags: 0
@@ -12008,10 +12008,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1127124189}
   - component: {fileID: 1127124188}
+  - component: {fileID: 1127124190}
   - component: {fileID: 1127124187}
   m_Layer: 0
   m_Name: Bood
-  m_TagString: Untagged
+  m_TagString: bood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12079,10 +12080,10 @@ ParticleSystem:
   serializedVersion: 5
   lengthInSec: 2
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 2
   looping: 1
-  prewarm: 0
-  playOnAwake: 1
+  prewarm: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -12130,7 +12131,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1168980655
+  randomSeed: -706156312
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -15489,6 +15490,17 @@ Transform:
   m_Father: {fileID: 2099674930}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -88.632, y: 0, z: 0}
+--- !u!114 &1127124190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1127124186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83b0cc4fbf557441ba71096b94514f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1134782505
 Prefab:
   m_ObjectHideFlags: 0
