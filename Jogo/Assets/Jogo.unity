@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -10651,15 +10651,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 255.24261
+      value: 268.58
       objectReference: {fileID: 0}
     - target: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.05
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2314.1643
+      value: 2288.4
       objectReference: {fileID: 0}
     - target: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10683,7 +10683,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_Name
-      value: Benjamin
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_Controller
@@ -10752,6 +10752,10 @@ Prefab:
     - target: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 152.64001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
@@ -12228,7 +12232,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1965466495
+  randomSeed: -2000650929
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -26004,9 +26008,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!195 &2099674927
 NavMeshAgent:
@@ -26037,27 +26041,15 @@ CapsuleCollider:
   m_GameObject: {fileID: 2099674923}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.57177734
-  m_Height: 2.7041693
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.1638405
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8211441, z: 0.071777344}
+  m_Center: {x: -0.0000000015806949, y: 0.8530797, z: 0.071777344}
 --- !u!4 &2099674930 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400130, guid: 819a9392ae2dca54e9908b72739325e7, type: 3}
   m_PrefabInternal: {fileID: 1000335170}
---- !u!65 &2099674931
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2099674923}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 2.3515866, z: 1}
-  m_Center: {x: 0, y: 0.98121226, z: 0}
 --- !u!1 &2100330094
 GameObject:
   m_ObjectHideFlags: 0
