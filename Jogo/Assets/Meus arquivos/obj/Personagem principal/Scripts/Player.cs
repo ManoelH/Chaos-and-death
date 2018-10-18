@@ -21,7 +21,14 @@ public class Player : MonoBehaviour {
 	void Update () {
 
         andar = Input.GetAxis("Vertical");  //ANDAR
-
+        if (Input.GetKey(KeyCode.S)) //ANDAR PARA TRÁS
+        {
+            animator.SetBool("direcaoAndar", false);
+        }
+        if(Input.GetKeyUp(KeyCode.S))
+        {
+            animator.SetBool("direcaoAndar", true);
+        }
         if (Input.GetKey(KeyCode.LeftShift)) //CORRER
         {
             andar += 1;
