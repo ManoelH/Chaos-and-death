@@ -89,8 +89,8 @@ public class Atirar : MonoBehaviour
     void Update()
     {
         //UI
-        BalasExtra.text = "BALLS: " + armas[armaAtual].balasExtra;
-        BalasPente.text = "BALLS IN THE GUN: " + armas[armaAtual].balasNoPente;
+        BalasExtra.text = "BULLETS: " + armas[armaAtual].balasExtra;
+        BalasPente.text = "BULLETS IN THE GUN: " + armas[armaAtual].balasNoPente;
         //troca de armas
         if (Mathf.Abs(Input.GetAxis("Mouse ScrollWheel")) > 0 && recarregando == false && atirando == false)
         {
